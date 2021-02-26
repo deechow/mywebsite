@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+        <title>My Favourite Shows</title>
+        <style>
+            * {
+                box-sizing: border-box;
+            }
+            body {
+                margin:25px;
+                font-family: Helvetica, Arial;
+                padding: 10px;
+                background-color: azure;
+            }
+        
+        .header {
+            padding: 30px;
+            text-align: center;
+        }
+
+        .header h1 {
+            font-size: 50px;
+        }
+        
+        .topnav {
+            overflow: hidden;
+            background-color: skyblue;
+        }
+        
+        .topnav a {
+            float: left;
+            display: block;
+            color: azure;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+
+        .topnav a:hover {
+            background-color: azure;
+            color: skyblue;
+        }
+
+        .box {
+            background-color: lightcyan;
+            padding: 20px;
+            margin-top: 20px;
+        }
+        
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        .leftcolumn {   
+            float: left;
+            width: 75%;
+        }
+
+        .rightcolumn {
+            float: left;
+            width: 25%;
+            padding-left: 20px;
+        }
+        
+        .footer {
+            padding: 20px;
+            text-align: center;
+            background: lightcyan;
+            color: darkgrey;
+            margin-top: 20px;
+        }
+
+        @media screen and (max-width: 800px) {
+            .leftcolumn, .rightcolumn {   
+                width: 100%;
+                padding: 0;
+            }
+        }
+
+        @media screen and (max-width: 400px) {
+            .topnav a {
+            float: none;
+            width: 100%;
+        }
+
+        </style>
+  </head>
+  <body>
+    <div class="header">
+      <h1>My Website</h1>
+      <p>Dustin's personal website.</p>
+    </div>
+        
+    <div class="topnav">
+      <a href="Index.html" >Home Page</a>
+      <a href="Places.html" >Favourite Places</a>
+      <a href="Shows.html" >Favourite Shows</a>
+      <a href="Goals.html" >Goals</a>
+      <a href="https://www.instagram.com/deechow03" target="_blank">Contact</a>
+    </div>
+    
+    <div class="row">
+      <div class="leftcolumn">
+        <div class="box">
+          <h2>My Favourite Shows</h2>
+          <ol>
+            <li><b>Adventure Time</b>
+            <br/>
+            <img src="https://upload.wikimedia.org/wikipedia/en/3/37/Adventure_Time_-_Title_card.png" width="250" alt="Adventure Time Title Sequence of Finn and Jake on a mountain."/>
+            </li>
+            <li><b>South Park</b>
+            <br/>
+            <img src="https://m.media-amazon.com/images/M/MV5BOGE2YWUzMDItNTg2Ny00NTUzLTlmZGYtNWMyNzVjMjQ3MThkXkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_.jpg" width="250" alt="South Park Title Sequence of Stan, Kyle, Kenny, and Eric waving."/>
+            </li>
+            <li><b>Rick and Morty</b>
+            <br/>
+            <img src="https://m.media-amazon.com/images/M/MV5BZjRjOTFkOTktZWUzMi00YzMyLThkMmYtMjEwNmQyNzliYTNmXkEyXkFqcGdeQXVyNzQ1ODk3MTQ@._V1_.jpg" width="250" alt="Rick and Morty Title Sequence of Rick and Morty walking through a portal."/>
+            </li>
+          </ol>
+        </div>
+      </div>
+      <div class="rightcolumn">
+        <div class="box">
+          <h2>Fun Facts</h2>
+          <img src="https://i2.wp.com/timothyrjeveland.com/wp-content/uploads/2019/04/the-historic-origins-of-the-fantasy-genre-explained.jpg?fit=560%2C311&ssl=1" width=100% alt="Picture of a fantasy setting."/>
+          <p>One of my favourite hobbies is world building. Unfortunately, I have a hard time to start the story writing part, but creating worlds is very fun. My favourite genre is magical fantasy.</p>
+        </div>
+        <div class="box">
+          <h3>Top Games</h3>
+          <p>Guild Wars</p>
+          <p>Minecraft</p>
+          <p>Kingdom Rush</p>
+        </div>
+        <div class="box">
+       	  <h3>Quote</h3>
+       	  <p>"Forgive but don't forget, live life without regrets"</p>
+        </div>
+      </div>
+    </div>
+    
+    <div class="footer">
+      <h2>@deechow03</h2>
+    </div>
+
+  </body>
+</html>
